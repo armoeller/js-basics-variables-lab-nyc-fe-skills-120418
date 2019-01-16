@@ -1,6 +1,6 @@
 const expect = chai.expect;
 
-const companyName = 'Scuber';
+// const companyName = 'Scuber';
 describe('index.js', function () {
   describe('companyName', function () {
     it('is set as Scuber', function () {
@@ -11,7 +11,7 @@ describe('index.js', function () {
       expect(function () { companyName = 'specialCompany' }).to.throw(TypeError);
     });
   });
-let mostProfitableNeighborhood = 'Chelsea';
+// let mostProfitableNeighborhood = 'Chelsea';
   describe('mostProfitableNeighborhood', function () {
     it('is declared as equal to Chelsea', function () {
       expect(mostProfitableNeighborhood).to.equal('Chelsea');
@@ -22,7 +22,7 @@ let mostProfitableNeighborhood = 'Chelsea';
     });
   });
 
-let companyCeo = 'Susan Smith';
+// let companyCeo = 'Susan Smith';
   describe('companyCeo', function () {
     it('is declared as equal to Susan Smith', function () {
       expect(companyCeo).to.equal('Susan Smith');
